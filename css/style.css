@@ -1,0 +1,265 @@
+/*
+Project: Mache
+Author : Ahammed Nayeem
+Email: nazmul3771@diu.edu.bd
+*/
+
+/*
+	====== INDEX ======
+	1. Global CSS
+	2. Header Section
+	3. Hero Section 
+	4. Product Section
+	5. Service Section
+	6. Casurol Section
+	7. Price Section
+	8. Update Section
+	9. Contact Section
+	10. Download Section
+	11. Footer Section
+	====================
+*/
+
+/* ====== 1. Global CSS ====== */
+body{
+	background-color:#fff;
+}
+section{
+	padding:50px 0px;
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+.img-fluid{
+	max-width: 100%;
+    height: auto;
+}
+.no-padding{
+	padding: 0;
+}
+
+h1{
+	color: #fff;
+    font-weight: 300;
+    font-size: 40px;
+}
+h2{
+	font-size: 30px;
+    font-weight: 300;
+    color: #5f5f5f;
+    font-style: italic;
+}
+h3{
+	color: #cecbcb;
+    margin-top: 15px;
+    font-size: 15px;
+}
+h4{
+	color:#fff;
+	margin-top: 10px;
+}
+h5{
+	color: #5f5f5f;
+	margin-top: 15px;
+}
+h6{
+	color: #ed145b;
+}
+
+p{
+	margin-top: 15px;
+    font-size: 11px;
+    color: #a7a7a7;
+    line-height: 20px;
+    font-weight: 500;
+}
+a{
+	text-decoration: none !important;
+	color: #e9ecef;
+}
+a:hover{
+	color: #de1859;
+}
+
+
+/* ====== 2. Header Section ====== */
+header{
+	background:url(../img/banner.png);
+	background-size: cover;
+}
+.nav-sec{
+	padding: 15px 0;
+}
+.active{
+	color: #ed145b !important;
+}
+
+/* ====== 3. Hero Section ====== */
+
+.hero{
+	padding: 150px 0; 
+}
+
+.underline{
+	background: #ed145b;
+    width: 22%;
+    padding: 1px 0px;
+    display: block;
+    margin: 20px auto;
+}
+
+.hero-btn{
+	margin-top: 50px;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: none;
+    background: #ed145b;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.hero-btn:hover{
+	color: #ed145b;
+	background: #fff; 
+	transition: 0.3s all ease;
+}
+
+/* ====== 4. Product Section ====== */
+.product{
+	background: url(../img/product-banner.png);
+	background-size: cover;
+	position: relative;
+}
+.pro-underline{
+	background: #ed145b;
+    width: 42%;
+    padding: 1px 0px;
+    display: block;
+    margin: 25px 0;
+}
+
+.see{
+	text-decoration: none;
+	color: #de1859;
+}
+.see:hover{
+	color:#5f5f5f;
+}
+
+.fa{
+	color: #de1859;
+    padding-left: 10px;
+}
+.fa:hover{
+	color:#5f5f5f;
+}
+
+.product img {
+	position: absolute;
+    height: 390px;
+    width: 650px;
+    left: -10px;
+}
+
+/* ====== 5. Service Section ====== */
+
+.service{
+	padding-top: 100px;
+}
+.service-content{
+	padding-top: 50px;
+}
+.service-icon{
+	width: 120px;
+    height: 115px;
+}
+
+/* ====== 7. Price Section ====== */
+
+.prices{
+	background-color: whitesmoke;
+}
+.card{
+	position:relative;
+}
+.price-btn{
+	position: absolute;
+    margin-top: 50px;
+    padding: 10px 55px;
+    border-radius: 30px;
+    border: none;
+    background: #ed145b;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    bottom: 40px;
+    left: 50px;
+
+}
+.price-btn:hover{
+	color: #ed145b;
+	background: #fff; 
+	transition: 0.7s;
+	border:0.5px solid #ed145b;
+}
+
+/* ====== 8. Option Section ====== */
+.option{
+	padding: 70px 0px;
+}
+.option-card{
+    display: flex;  
+}
+.option-card-left{
+ 	padding: 1rem 2rem;
+}
+.option-card-right{
+ 	
+}
+/* ====== 9. Contact Section ====== */
+.contact{
+	background-color: #ed145b;
+}
+.contact-btn{
+    padding: 3px 80px;
+    border-radius: 30px;
+    border: none;
+    background: #ffffff;
+    color: #ed145b;
+    font-weight: 700;
+    cursor: pointer;
+}
+.contact-btn:hover{
+	color:#ffffff;
+	background: #b3476a; 
+	transition: 0.7s;
+}
+
+/* ====== 10. Update Section ====== */
+
+.news-content{
+	background-color:#f1f1f1;
+}
+
+/* ====== 11. Update Section ====== */
+.again{
+	background: url(../img/banner.png);
+	background-size: cover;
+	height: 400px;
+}
+
+/* ====== 11. Download Section ====== */
+.download img{
+	height: 410px;
+    width: 630px;
+}
+
+/* ====== 8. Footer Section ====== */
+
+footer{
+	background-color:#444444;
+	padding: 15px 0px;
+}
